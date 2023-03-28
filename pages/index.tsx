@@ -78,12 +78,12 @@ export default function HireMe() {
           </p>
         </div>
         <Link href="/hire">
-          <button className="m-2 text-lg px-4 py-2 rounded-full outline outline-[2px] outline-blue-800 text-black drop-shadow-lg bg-blue-400 hover:bg-orange-300 hover:outline-orange-800 bg-opacity-70">
+          <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-blue-800 text-black drop-shadow-lg bg-blue-400 hover:bg-orange-300 hover:ring-orange-800 bg-opacity-70">
             Hire Me!
           </button>
         </Link>
         <Link href="/lessons">
-          <button className="m-2 text-lg px-4 py-2 rounded-full outline outline-[2px] outline-green-800 text-black drop-shadow-lg bg-green-400 hover:bg-purple-300 hover:outline-purple-800 bg-opacity-70">
+          <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-green-800 text-black drop-shadow-lg bg-green-400 hover:bg-purple-300 hover:ring-purple-800 bg-opacity-70">
             Learn To Code!
           </button>
         </Link>
