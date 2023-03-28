@@ -59,7 +59,7 @@ export default function NavbarMobile(props: any) {
             Hire Me
           </a>
         </Link>
-        <Link legacyBehavior href="/hire">
+        <Link legacyBehavior href="/lessons">
           <a className="block px-3 py-2 text-2xl rounded-md text-base font-medium  focus:outline-none focus: focus:bg-gray-700 text-violet-500">
             Learn To Code
           </a>

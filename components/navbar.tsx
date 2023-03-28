@@ -17,7 +17,7 @@ export default function Navbar(props: any) {
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/hire">
+              <Link href="/lessons">
                 <button className="text-xl px-4 py-2 font-semibold rounded-md hover:bg-gray-700 focus:outline-none focus:bg-gray-700 text-violet-500">
                   Learn To Code
                 </button>

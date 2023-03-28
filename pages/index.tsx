@@ -4,6 +4,10 @@ import Card from "../components/card";
 export default function HireMe() {
   return (
     <div className="md:mt-10 mt-5">
+      <div className="mb-5 text-slate-200">
+          <h1 className="text-2xl font-semibold underline">My Portfolio</h1>
+          {/* <p className="text-pink-400">Click to add a ball</p> */}
+        </div>
       <div className="relative pb-20">
         {/* <h1 className="text-2xl font-semibold text-slate-200 mb-5 underline">
             Portfolio
@@ -30,9 +34,9 @@ export default function HireMe() {
           <p className="mr-2 text-amber-500 font-bold">CLICK ME!!</p>
         </div>
       </div>
-      <div className="mt-10">
+      <div className="">
         <div className="mb-5 text-slate-200">
-          <h1 className="text-2xl font-semibold underline">Welcome!</h1>
+          <h1 className="text-2xl font-semibold underline">Howdy!</h1>
           {/* <p className="text-pink-400">Click to add a ball</p> */}
         </div>
         <div className="p-5 mb-5 inverted border border-gray-300 rounded-lg">
@@ -73,12 +77,12 @@ export default function HireMe() {
             <span className="text-sky-600 font-bold">better world</span>.
           </p>
         </div>
-        <Link href="/">
+        <Link href="/hire">
           <button className="m-2 text-lg px-4 py-2 rounded-full outline outline-[2px] outline-blue-800 text-black drop-shadow-lg bg-blue-400 hover:bg-orange-300 hover:outline-orange-800 bg-opacity-70">
             Hire Me!
           </button>
         </Link>
-        <Link href="/about">
+        <Link href="/lessons">
           <button className="m-2 text-lg px-4 py-2 rounded-full outline outline-[2px] outline-green-800 text-black drop-shadow-lg bg-green-400 hover:bg-purple-300 hover:outline-purple-800 bg-opacity-70">
             Learn To Code!
           </button>
