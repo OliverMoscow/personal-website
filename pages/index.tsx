@@ -78,14 +78,25 @@ export default function HireMe() {
           </p>
         </div>
         <Link href="/hire">
-          <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-blue-800 text-black drop-shadow-lg bg-blue-400 hover:bg-orange-300 hover:ring-orange-800 bg-opacity-70">
+        <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-red-800 text-black drop-shadow-lg bg-red-400 hover:bg-orange-400 hover:ring-orange-600 bg-opacity-70">
             Hire Me!
           </button>
         </Link>
         <Link href="/lessons">
-          <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-green-800 text-black drop-shadow-lg bg-green-400 hover:bg-purple-300 hover:ring-purple-800 bg-opacity-70">
+          <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-green-800 text-black drop-shadow-lg bg-green-400 hover:bg-amber-300 hover:ring-amber-800 bg-opacity-70">
             Learn To Code!
           </button>
+        </Link>
+        <Link href={"https://github.com/OliverMoscow"}>
+            <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-purple-800 text-black drop-shadow-lg bg-purple-400 hover:bg-yellow-400 hover:ring-yellow-600 bg-opacity-70">
+                Github
+            </button>
+        </Link>
+        <Link href={"https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1"}>
+            <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-blue-800 text-black drop-shadow-lg bg-blue-400 hover:bg-orange-300 hover:ring-orange-800 bg-opacity-70">
+
+                Upwork
+            </button>
         </Link>
       </div>
       <div className="my-10">
