@@ -40,7 +40,7 @@ export default function HireMe() {
           {/* <p className="text-pink-400">Click to add a ball</p> */}
         </div>
         <div className="p-5 mb-5 inverted border border-gray-300 rounded-lg">
-          <p className="text-md">
+          {/* <p className="text-md">
             My name is <span className="text-green-600 font-bold">Oliver</span>.
             I have an{" "}
             <span className="text-emerald-400 font-bold">passion</span> for{" "}
@@ -75,7 +75,8 @@ export default function HireMe() {
             <span className="text-green-600 font-bold">open source</span>{" "}
             solutions for a{" "}
             <span className="text-sky-600 font-bold">better world</span>.
-          </p>
+          </p> */}
+          <p>My name is Oliver. I have an passion for coding and UX design! I have spent the past 4+ years building mobile and web applications for companies and freelance customers. As a student studying computer science at Colorado College, I spend my free time writing code. I specialize in native IOS development with a broad range of skills across many different languages and frameworks. I love learning about new technologies! I want to build open source solutions for a better world.</p>
         </div>
         <Link href="/hire">
         <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-red-800 text-black drop-shadow-lg bg-red-400 hover:bg-orange-400 hover:ring-orange-600 bg-opacity-70">
