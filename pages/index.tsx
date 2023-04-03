@@ -79,26 +79,27 @@ export default function HireMe() {
           <p>My name is Oliver. I have an passion for coding and UX design! I have spent the past 4+ years building mobile and web applications for companies and freelance customers. As a student studying computer science at Colorado College, I spend my free time writing code. I specialize in native IOS development with a broad range of skills across many different languages and frameworks. I love learning about new technologies! I want to build open source solutions for a better world.</p>
         </div>
         <Link href="/hire">
-        <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-red-800 text-black drop-shadow-lg bg-red-400 hover:bg-orange-400 hover:ring-orange-600 bg-opacity-70">
+        <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-pink-800 text-black drop-shadow-lg bg-pink-500 hover:bg-pink-400 hover:ring-pink-600 bg-opacity-100">
             Hire Me!
           </button>
         </Link>
-        <Link href="/lessons">
+        {/* <Link href="/lessons">
           <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-green-800 text-black drop-shadow-lg bg-green-400 hover:bg-amber-300 hover:ring-amber-800 bg-opacity-70">
             Learn To Code!
           </button>
-        </Link>
+        </Link> */}
         <Link href={"https://github.com/OliverMoscow"}>
-            <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-purple-800 text-black drop-shadow-lg bg-purple-400 hover:bg-yellow-400 hover:ring-yellow-600 bg-opacity-70">
+        <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-emerald-800 text-black drop-shadow-lg bg-emerald-500 hover:bg-emerald-400 hover:ring-emerald-600 bg-opacity-100">
+            {/* <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-purple-800 text-black drop-shadow-lg bg-purple-400 hover:bg-yellow-400 hover:ring-yellow-600 bg-opacity-70"> */}
                 Github
             </button>
         </Link>
-        <Link href={"https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1"}>
+        {/* <Link href={"https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1"}>
             <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-blue-800 text-black drop-shadow-lg bg-blue-400 hover:bg-orange-300 hover:ring-orange-800 bg-opacity-70">
 
                 Upwork
             </button>
-        </Link>
+        </Link> */}
       </div>
       <div className="my-10">
         <div className="mb-5 text-slate-200">

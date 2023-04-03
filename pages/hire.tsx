@@ -82,7 +82,7 @@ export default function Hire() {
             required
           />
           <button
-            className="bg-orange-400 hover:bg-blue-400 text-white p-2 my-5 rounded-md bg-opacity-70"
+            className="bg-orange-400 hover:bg-blue-400 text-white p-2 my-5 rounded-md"
             type="submit"
           >
             Get A Custom Quote!
