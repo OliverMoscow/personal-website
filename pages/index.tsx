@@ -76,7 +76,7 @@ export default function HireMe() {
             solutions for a{" "}
             <span className="text-sky-600 font-bold">better world</span>.
           </p> */}
-          <p>Embark on a riveting journey with me, Oliver—a coding virtuoso and UX aficionado. As a dedicated computer science student at Colorado College, I channel my free hours into crafting immersive digital experiences. By entrusting your project to my expertise, you'll not only gain technical finesse but also an enthusiasm for employing cutting-edge open-source technology solutions to shape a positive future.</p>
+          <p>My name is Oliver. I have an passion for coding and UX design! I have spent the past 4+ years building mobile and web applications for companies and freelance customers. As a student studying computer science at Colorado College, I spend my free time writing code. I specialize in native IOS development with a broad range of skills across many different languages and frameworks. I love learning about new technologies! I want to build open source solutions for a better world.</p>
         </div>
         <Link href="/hire">
         <button className="m-2 text-lg px-4 py-2 rounded-full ring ring-[2px] ring-pink-800 text-black drop-shadow-lg bg-pink-500 hover:bg-pink-400 hover:ring-pink-600 bg-opacity-100">
