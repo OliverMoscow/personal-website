@@ -10,7 +10,7 @@ export default function NavbarMobile(props: any) {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/">
-              <h1 className="text-3xl font-bold">Oliver Moscow</h1>
+              <h1 className="sm:text-3xl text-2xl font-bold">OLIVER MOSCOW</h1>
             </Link>
           </div>
           <div className="-mr-2 flex items-center">
@@ -53,10 +53,22 @@ export default function NavbarMobile(props: any) {
         </div>
       </div>
       {isOpen ? (
-        <div className="pt-2 pb-3 space-y-1">
-          <Link legacyBehavior href="/hire">
-          <a className="block px-3 py-2 text-2xl rounded-md text-base font-medium  focus:outline-none focus: focus:bg-gray-700 text-orange-500">
-            Hire Me
+        <div className="flex justify-center py-2 space-x-3 text-center">
+          <Link legacyBehavior href="/about">
+          <a className="block text-2xl text-base font-medium">
+            ABOUT ME
+          </a>
+        </Link>
+        <p>/</p>
+        <Link legacyBehavior href="/portfolio">
+          <a className="block text-2xl text-base font-medium">
+            MY WORK
+          </a>
+        </Link>
+        <p>/</p>
+        <Link legacyBehavior href="/">
+          <a className="block text-2xl rounded-md text-base font-medium text-blue-400">
+            LETS CHAT!
           </a>
         </Link>
         {/* <Link legacyBehavior href="/lessons">

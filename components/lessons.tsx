@@ -41,8 +41,8 @@ export default function Lessons() {
         project guided. The goal is to teach you the skills necessary to be able
         to code on your own.
       </p>
-      <form className="flex flex-col font-semibold text-blue-700 py-5" onSubmit={handleSubmit}>
-        <label className="text-white">Name</label>
+      <form className="flex flex-col font-bold text-blue-700 py-5" onSubmit={handleSubmit}>
+        <label className="">Name</label>
         <input
           className="border-2 border-white rounded-md p-2 mb-3 bg-white bg-opacity-50"
           type="text"
@@ -50,7 +50,7 @@ export default function Lessons() {
           id="name"
           required
         />
-        <label className="text-white">Email</label>
+        <label className="">Email</label>
         <input
           className="border-2 border-white rounded-md p-2 mb-3 bg-white bg-opacity-50"
           type="text"
@@ -58,7 +58,7 @@ export default function Lessons() {
           id="email"
           required
         />
-        <label className="text-white">What would you like to build?</label>
+        <label className="">What would you like to build?</label>
         <p className="text-slate-300 text-sm pb-2">
           Lessons are project guided. I encourage students to prepare an app or
           website idea before the first lesson.
@@ -69,7 +69,7 @@ export default function Lessons() {
           id="project"
           required
         ></textarea>
-        <label className="text-white">Why do you want to learn to code?</label>
+        <label className="">Why do you want to learn to code?</label>
         <p className="text-slate-300 text-sm pb-2"></p>
         <textarea
           className="border-2 border-white rounded-md p-2 mb-3 bg-white bg-opacity-50 h-[150px] focus:outline-none focus:ring-0"
@@ -78,7 +78,7 @@ export default function Lessons() {
           required
         ></textarea>
         <button
-          className="bg-green-400 hover:bg-purple-400 font-bold text-white p-2 my-5 rounded-md bg-opacity-70"
+          className="bg-green-400 hover:bg-purple-400 font-bold  p-2 my-5 rounded-md bg-opacity-70"
           type="submit"
         >
           First Lesson 50% Off!

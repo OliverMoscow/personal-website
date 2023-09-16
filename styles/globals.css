@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 html {
-    background-color: rgb(31 41 55);
-    color: white;
+    /* background: linear-gradient(to bottom, #00001d, #000000); */
+    background-attachment: fixed;
+    background-color: #010011;
+    overflow-x: hidden;
+    color: rgba(255, 255, 255, 0.93);
     height: 100vh;
 }
 

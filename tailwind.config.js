@@ -5,7 +5,17 @@ module.exports = {
         "./components/**/*.{js,ts,jsx,tsx}",
     ],
     theme: {
-        extend: {},
+        extend: {
+            backgroundImage: {
+                'categorizor': "url('/images/categorizor.png')",
+                'conch': "url('/images/conch.png')",
+                'easyToLove': "url('/images/easyToLove.png')",
+                'fiethMobile': "url('/images/fiethMobile.png')",
+                'goGirl': "url('/images/goGirl.png')",
+                'hieofone': "url('/images/hieofone.png')",
+                'listnr': "url('/images/listnr.png')",
+            }
+        },
     },
     plugins: [],
 }
