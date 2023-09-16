@@ -70,11 +70,11 @@ export default function Home() {
           </button>
         </Link>
       </div>
-
+{/* 
       <div>
         <h1 className="text-xl text-blue-400 font-bold">CONTACT ME</h1>
         <EmailForm extreme={false} />
-      </div>
+      </div> */}
     </div>
   );
 }
