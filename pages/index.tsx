@@ -22,10 +22,9 @@ export default function Home() {
           </Link>
           <Link
             href="/about"
-            className="text-lg px-4 underline underline-offset-8 underline-width-2 decoration-blue-400 text-sm"
             aria-label="LEARN MORE"
           >
-            LEARN MORE
+            <p className="text-lg px-4 underline underline-offset-8 underline-width-2 decoration-blue-400 text-sm">LEARN MORE</p>
           </Link>
         </div>
       </div>
