@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Card from "../components/card";
-import BallsBackground from "../components/bouncing-balls";
 import EmailForm from "../components/emailform";
 
 export default function Home() {
@@ -14,15 +13,17 @@ export default function Home() {
           A FULL-STACK DEVELOPER WHO BUILDS WEBSITES AND MOBILE APPS.
         </p>
         <div className="flex space-x-2 items-center">
-          <Link href="/contact">
-            <button className="text-lg px-4 py-2 text-black bg-yellow-400 rounded-md hover:bg-yellow-300">
-              LETS CHAT!
-            </button>
+          <Link
+            href="/contact"
+            className="text-lg px-4 py-2 text-black bg-yellow-400 rounded-md hover:bg-yellow-300"
+          >
+            LETS CHAT!
           </Link>
-          <Link href="/about">
-            <button className="text-lg px-4 underline underline-offset-8 underline-width-2 decoration-blue-400 text-sm">
-              LEARN MORE
-            </button>
+          <Link
+            href="/about"
+            className="text-lg px-4 underline underline-offset-8 underline-width-2 decoration-blue-400 text-sm"
+          >
+            LEARN MORE
           </Link>
         </div>
       </div>
@@ -64,13 +65,14 @@ export default function Home() {
           businesses. I firmly believe the most valuable projects are those that
           can make meaningful change.
         </p>
-        <Link href="/about">
-          <button className="pt-3 text-xs text-slate-500 underline underline-offset-8 underline-width-2 hover:text-blue-400">
-            KEEP READING
-          </button>
+        <Link
+          href="/about"
+          className="pt-3 text-xs text-slate-500 underline underline-offset-8 underline-width-2 hover:text-blue-400"
+        >
+          KEEP READING
         </Link>
       </div>
-{/* 
+      {/* 
       <div>
         <h1 className="text-xl text-blue-400 font-bold">CONTACT ME</h1>
         <EmailForm extreme={false} />

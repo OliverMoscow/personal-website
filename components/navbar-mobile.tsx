@@ -16,6 +16,7 @@ export default function NavbarMobile(props: any) {
           <div className="-mr-2 flex items-center">
             <button
               type="button"
+              aria-label="menu"
               className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover: hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:"
               onClick={() => setIsOpen(!isOpen)}
             >
@@ -54,29 +55,34 @@ export default function NavbarMobile(props: any) {
       </div>
       {isOpen ? (
         <div className="flex justify-center py-2 space-x-3 text-center">
-          <Link legacyBehavior href="/about">
-          <a className="block text-2xl text-base font-medium">
+          <Link
+            legacyBehavior
+            href="/about"
+            className="block text-2xl text-base font-medium"
+          >
             ABOUT ME
-          </a>
-        </Link>
-        <p>/</p>
-        <Link legacyBehavior href="/portfolio">
-          <a className="block text-2xl text-base font-medium">
+          </Link>
+          <p>/</p>
+          <Link
+            legacyBehavior
+            href="/portfolio"
+            className="block text-2xl text-base font-medium"
+          >
             MY WORK
-          </a>
-        </Link>
-        <p>/</p>
-        <Link legacyBehavior href="/">
-          <a className="block text-2xl rounded-md text-base font-medium text-blue-400">
-            LETS CHAT!
-          </a>
-        </Link>
-        {/* <Link legacyBehavior href="/lessons">
+          </Link>
+          <p>/</p>
+          <Link
+            legacyBehavior
+            href="/"
+          >
+            <p className="block text-2xl rounded-md text-base font-medium text-blue-400">LETS CHAT!</p>
+          </Link>
+          {/* <Link legacyBehavior href="/lessons">
           <a className="block px-3 py-2 text-2xl rounded-md text-base font-medium  focus:outline-none focus: focus:bg-gray-700 text-violet-500">
             Learn To Code
           </a>
         </Link> */}
-      </div>
+        </div>
       ) : (
         <div>{props.children}</div>
       )}

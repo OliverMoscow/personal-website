@@ -44,6 +44,7 @@ export default function Portfolio() {
             className={`md:text-xl font-bold ${
               activeTab === 'websites' ? 'text-blue-400' : 'text-gray-400'
             } transition duration-300 ease-in-out`}
+            aria-label='tab button'
           >
             WEBSITES
           </button>
@@ -52,6 +53,7 @@ export default function Portfolio() {
             className={`md:text-xl font-bold ${
               activeTab === 'ios' ? 'text-blue-400' : 'text-gray-400'
             } transition duration-300 ease-in-out`}
+            aria-label='tab button'
           >
             IOS APPS
           </button>
@@ -60,6 +62,7 @@ export default function Portfolio() {
             className={`md:text-xl font-bold ${
               activeTab === 'opensource' ? 'text-blue-400' : 'text-gray-400'
             } transition duration-300 ease-in-out`}
+            aria-label='tab button'
           >
             OPEN SOURCE
           </button>

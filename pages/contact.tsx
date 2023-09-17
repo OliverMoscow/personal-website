@@ -33,6 +33,7 @@ export default function contact() {
           <button
             className="w-full text-lg font-bold px-4 py-2 text-black bg-gray-200 rounded-md hover:bg-gray-300"
             type="submit"
+            aria-label="dm me"
           >
             DM ME
           </button>

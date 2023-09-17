@@ -49,7 +49,7 @@ const ResumeCard: React.FC<CardProps> = ({
         <h1 className="font-bold text-3xl">{headerText}</h1>
         <p className="pt-3 text-xl">{company} - {date}</p>
         <p className="py-3 text-lg text-slate-500">{contentText}</p>
-        <button onClick={navigate} className="text-slate-500 hover:underline">SEE MORE...</button>
+        <button onClick={navigate} className="text-slate-500 hover:underline" aria-label="see more">SEE MORE...</button>
       </div>
       <div className="md:w-1/2 md:hidden block">
         <div

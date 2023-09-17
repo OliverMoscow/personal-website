@@ -63,6 +63,7 @@ const EmailForm: React.FC<Props> = ({ extreme }) => {
             <button
               className="text-lg px-4 py-2 text-black bg-yellow-400 rounded-md hover:bg-yellow-300"
               type="submit"
+              aria-label="send message"
             >
               SEND (ILL REPLY BACK)
             </button>
@@ -70,6 +71,7 @@ const EmailForm: React.FC<Props> = ({ extreme }) => {
             <button
               className="text-lg px-4 py-2 text-black bg-gray-400 rounded-md hover:bg-gray-500"
               type="submit"
+              aria-label="send message"
             >
               SEND (ILL REPLY BACK)
             </button>

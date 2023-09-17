@@ -13,19 +13,17 @@ export default function Navbar(props: any) {
           <ul className="flex text-md font-bold">
             <li className="mr-6">
               <Link href="/about">
-                <button className="">ABOUT ME</button>
+              ABOUT ME
               </Link>
             </li>
             <li className="mr-6">
               <Link href="/portfolio">
-                <button className="">MY WORK</button>
+              MY WORK
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/contact">
-                <button className="text-blue-400">
-                  LETS CHAT!
-                </button>
+              <Link href="/contact" className="text-blue-400">
+              LETS CHAT!
               </Link>
             </li>
 
