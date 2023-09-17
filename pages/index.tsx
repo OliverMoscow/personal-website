@@ -69,7 +69,7 @@ export default function Home() {
         </p>
         <Link
           href="/about"
-          className="pt-3 text-xs text-slate-500 underline underline-offset-8 underline-width-2 hover:text-blue-400"
+          className="pt-3 text-xs text-slate-400 underline underline-offset-8 underline-width-2 hover:text-blue-400"
         >
           KEEP READING
         </Link>
