@@ -16,12 +16,14 @@ export default function Home() {
           <Link
             href="/contact"
             className="text-lg px-4 py-2 text-black bg-yellow-400 rounded-md hover:bg-yellow-300"
+            aria-label="Quick conversion"
           >
             LETS CHAT!
           </Link>
           <Link
             href="/about"
             className="text-lg px-4 underline underline-offset-8 underline-width-2 decoration-blue-400 text-sm"
+            aria-label="About me"
           >
             LEARN MORE
           </Link>
