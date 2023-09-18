@@ -123,7 +123,7 @@ export default function websites() {
             </h1>
             <p className="text-xl py-5">
               My design philosophy is that good design should lead to functional
-              websites that are quick and accessible. My results show that.
+              websites that are quick and accessible. My results show that this is the right approach.
             </p>
             <Image
               src={"/images/performance.png"}
