@@ -28,7 +28,7 @@ export default function websites() {
         />
         <ResumeCard
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1617921820829810688"
-          headerText={"Conch.fm"}
+          headerText={"THE CONCH"}
           contentText={
             "A highschool entrepreneurial idea. This website allows you to build your own radio station for free! It is powered by the Spotify playback api and mux."
           }
@@ -38,7 +38,7 @@ export default function websites() {
         />
         <ResumeCard
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1532051821659734016"
-          headerText={"Auto Document Categorizer"}
+          headerText={"AUTO DOCUMENT CATEGORIZER"}
           contentText={
             "An automatic categorizer which speeds up the process of categorizing documents via TF-IDF. Built for FEITH using React and a Java backend."
           }
