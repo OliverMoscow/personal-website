@@ -22,7 +22,7 @@ export default function Navbar(props: any) {
               </Link>
             </li>
             <li className="mr-6">
-              <Link href="/contact" className="text-blue-400">
+              <Link href="/contact" className="text-yellow-400">
               LETS CHAT!
               </Link>
             </li>

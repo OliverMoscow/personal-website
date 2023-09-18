@@ -75,7 +75,7 @@ export default function NavbarMobile(props: any) {
             legacyBehavior
             href="/"
           >
-            <p className="block text-2xl rounded-md text-base font-medium text-blue-400">LETS CHAT!</p>
+            <p className="block text-2xl rounded-md text-base font-medium text-yellow-400">LETS CHAT!</p>
           </Link>
           {/* <Link legacyBehavior href="/lessons">
           <a className="block px-3 py-2 text-2xl rounded-md text-base font-medium  focus:outline-none focus: focus:bg-gray-700 text-violet-500">
