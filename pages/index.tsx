@@ -58,7 +58,7 @@ export default function Home() {
       </div>
       <div className="pb-20">
         <h1 className="text-xl text-blue-400 font-bold">ABOUT ME</h1>
-        <p className="text-3xl py-3">I CRAFT EXPIRIENCES THAT SOLVE PROBLEMS</p>
+        <p className="text-3xl py-3">I CRAFT EXPERIENCES THAT SOLVE PROBLEMS</p>
         <p>
           The best feeling is overcoming a hard challenge. Growing up in
           Philadelphia, I spent hours immersed in the process of developing and

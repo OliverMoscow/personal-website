@@ -75,7 +75,7 @@ const AboutMe: React.FC = () => {
           <p className="text-2xl">FREELANCE DEVELOPER</p>
           <p className="text-lg text-slate-500 mb-2">
             A marketplace for freelance talent. On the platform I am top rated
-            and build full-stack applications for startups and small buisnesses.
+            and build full-stack applications for startups and small businesses.
             Check out my profile to see some of the projects I've worked on.
           </p>
           <Link
@@ -92,7 +92,7 @@ const AboutMe: React.FC = () => {
           <p className="text-lg text-slate-500 mb-2">
             An open-source startup pioneering patient owned electronic health
             records. I am deeply involved in the design, development, and
-            maitenence of the code base.
+            maintenance of the code base.
           </p>
           <Link
             href="https://hieofone.com/"
@@ -106,7 +106,7 @@ const AboutMe: React.FC = () => {
           <h1 className="text-3xl font-bold">FEITH SYSTEMS AND SERVICES</h1>
           <p className="text-2xl">PAID INTERN</p>
           <p className="text-lg text-slate-500 mb-2">
-            A database managment company founded in 1979 that sells software to
+            A database management company founded in 1979 that sells software to
             the US government and other large customers. I worked in research
             and development and built demos using ML and TF-IDF.
           </p>

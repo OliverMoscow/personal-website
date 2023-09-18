@@ -14,6 +14,8 @@ module.exports = {
                 'goGirl': "url('/images/goGirl.png')",
                 'hieofone': "url('/images/hieofone.png')",
                 'listnr': "url('/images/listnr.png')",
+                'webdesignprocess': "url('/images/webdesignprocess.pdf')",
+                'webdesignprocess2': "url('/images/webdesignprocess2.pdf')",
             }
         },
     },

@@ -25,7 +25,7 @@ export default function contact() {
         <h1 className="text-3xl font-bold">CHECK MY UPWORK</h1>
         <p className="text-lg text-slate-500 mb-2">
           Upwork is a marketplace for freelance talent. On the platform I am top rated and
-          build full-stack applications for startups and small buisnesses. Check
+          build full-stack applications for startups and small businesses. Check
           out my profile to see some of the projects I've worked on. Or DM me
           and say hi.
         </p>
