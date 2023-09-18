@@ -1,33 +1,43 @@
 import Link from "next/link";
+import { useState } from "react"; // Import useState hook
 
 type Props = {
   extreme: boolean;
 };
 
 const EmailForm: React.FC<Props> = ({ extreme }) => {
+  const [isSending, setIsSending] = useState(false); // State to track sending status
+
   const sendEmail = async (email: string, subject: string, message: string) => {
-    const res = await fetch("/api/sendgrid", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ email, subject, message }),
-    });
-    if (res.status === 200) {
-      alert(
-        "Your message has been sent! I will get back to you as soon as possible."
-      );
-    } else {
-      alert("Something went wrong. Please try again later.");
+    setIsSending(true); // Set isSending to true when sending starts
+    try {
+      const res = await fetch("/api/sendgrid", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ email, subject, message }),
+      });
+      if (res.status === 200) {
+        alert(
+          "Your message has been sent! I will get back to you as soon as possible."
+        );
+      } else {
+        alert("Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Error sending message:", error);
+    } finally {
+      setIsSending(false); // Set isSending back to false after sending completes
     }
   };
 
-  const handleSubmit = (event: any) => {
+  const handleSubmit = async (event: any) => {
     event.preventDefault();
     const email = event.target.email.value;
     const subject = `Oliver got a personal job request from ${event.target.name.value}`;
     const message = `MESSAGE: ${event.target.jobDescription.value} <br/> Respond to ${email}`;
-    sendEmail("omoscow15@gmail.com", subject, message);
+    await sendEmail("omoscow15@gmail.com", subject, message);
   };
 
   return (
@@ -61,19 +71,25 @@ const EmailForm: React.FC<Props> = ({ extreme }) => {
           ></textarea>
           {extreme ? (
             <button
-              className="text-lg px-4 py-2 text-black bg-yellow-400 rounded-md hover:bg-yellow-300"
+              className={`text-lg px-4 py-2 text-black rounded-md hover:bg-yellow-300 ${
+                isSending ? "bg-gray-300 cursor-not-allowed" : "bg-yellow-400"
+              }`}
               type="submit"
               aria-label="send message"
+              disabled={isSending} // Disable button when isSending is true
             >
-              SEND (ILL REPLY BACK)
+              {isSending ? "Sending..." : "SEND (I'LL REPLY BACK)"}
             </button>
           ) : (
             <button
-              className="text-lg px-4 py-2 text-black bg-gray-400 rounded-md hover:bg-gray-500"
+              className={`text-lg px-4 py-2 text-black rounded-md hover:bg-gray-500 ${
+                isSending ? "bg-gray-300 cursor-not-allowed" : "bg-gray-400"
+              }`}
               type="submit"
               aria-label="send message"
+              disabled={isSending} // Disable button when isSending is true
             >
-              SEND (ILL REPLY BACK)
+              {isSending ? "Sending..." : "SEND (I'LL REPLY BACK)"}
             </button>
           )}
         </form>
