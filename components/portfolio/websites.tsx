@@ -56,14 +56,14 @@ export default function websites() {
         */}
           <div className="hidden md:block w-1/3 pl-4">
             <Image
-              src="/images/webdesignproces2.png"
+              src="/images/webdesignprocess2.png"
               alt="sketch 1"
               className="pb-5"
               width={200}
               height={500}
             />
             <Image
-              src="/images/webdesignprocess1.png"
+              src="/images/webdesignprocess.png"
               alt="sketch 2"
               width={200}
               height={500}
