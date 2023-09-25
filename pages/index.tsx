@@ -37,11 +37,11 @@ export default function Home() {
       ></div>
       {/* on mobile */}
       <div
-        className="absolute md:hidden block top-[350px] right-0 w-full h-full bg-contain bg-no-repeat"
+        className="absolute md:hidden block top-[400px] right-0 w-full h-full bg-contain bg-no-repeat"
         style={{ backgroundImage: "url('images/profile.jpg')" }}
       ></div>
 
-      <div id="portfolio" className="pb-4 md:pt-4 pt-[120px]">
+      <div id="portfolio" className="pb-4 md:pt-4 pt-[175px]">
         {/* <h1 className="text-slate-500 text-xl font-bold pb-2">EXPLORE MY PORTFOLIO</h1> */}
         <div className="relative pb-20">
           <div className="flex flex-col md:flex-row justify-between gap-4">
