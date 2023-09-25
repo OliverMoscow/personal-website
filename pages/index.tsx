@@ -5,20 +5,20 @@ import EmailForm from "../components/emailform";
 export default function Home() {
   return (
     <div id="main" className="lg:mx-40 md:mx-20 mx-10 pb-20">
-      <div className="h-[38rem] flex flex-col justify-center md:w-2/3">
-        <h1 className="md:text-7xl text-5xl font-bold">
+      <div className="md:h-[38rem] h-[30rem] flex flex-col justify-center md:w-2/3 relative overflow-hidden">
+        <h1 className="md:text-7xl text-5xl font-bold relative z-10">
           LET'S BUILD SOMETHING COOL!
         </h1>
-        <p className=" text-xl w-[300px] md:py-10 py-4">
+        <p className="text-xl w-[300px] md:py-10 py-4 relative z-10">
           A FULL-STACK DEVELOPER WHO BUILDS WEBSITES AND MOBILE APPS.
         </p>
-        <div className="flex space-x-2 items-center">
+        <div className="flex space-x-2 items-center relative z-10">
           <Link
             href="/contact"
             className="text-lg px-4 py-2 text-black bg-yellow-400 rounded-md hover:bg-yellow-300"
-            aria-label="LETS CHAT!"
+            aria-label="LET'S CHAT!"
           >
-            LETS CHAT!
+            LET'S CHAT!
           </Link>
           <Link
             href="/about"
@@ -29,8 +29,19 @@ export default function Home() {
           </Link>
         </div>
       </div>
+      {/* Background image */}
+      {/* on web */}
+      <div
+        className="absolute md:block hidden top-20 xl:right-20 lg:right-10 right-0 lg:w-[50%] w-[75%] h-full bg-cover bg-no-repeat"
+        style={{ backgroundImage: "url('images/profile.jpg')" }}
+      ></div>
+      {/* on mobile */}
+      <div
+        className="absolute md:hidden block top-[350px] right-0 w-full h-full bg-contain bg-no-repeat"
+        style={{ backgroundImage: "url('images/profile.jpg')" }}
+      ></div>
 
-      <div id="portfolio" className="py-4">
+      <div id="portfolio" className="pb-4 md:pt-4 pt-40">
         {/* <h1 className="text-slate-500 text-xl font-bold pb-2">EXPLORE MY PORTFOLIO</h1> */}
         <div className="relative pb-20">
           <div className="flex flex-col md:flex-row justify-between gap-4">
