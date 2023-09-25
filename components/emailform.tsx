@@ -46,7 +46,7 @@ const EmailForm: React.FC<Props> = ({ extreme }) => {
         <form className="flex flex-col font-bold pt-5" onSubmit={handleSubmit}>
           <label className="">YOUR NAME</label>
           <input
-            className="rounded-md p-2 mb-3 text-black bg-gray-200"
+            className="rounded-md p-2 mb-3 text-black bg-gray-400"
             type="text"
             name="name"
             id="name"
@@ -54,7 +54,7 @@ const EmailForm: React.FC<Props> = ({ extreme }) => {
           />
           <label className="">YOUR EMAIL</label>
           <input
-            className="rounded-md p-2 mb-3 text-black bg-gray-200"
+            className="rounded-md p-2 mb-3 text-black bg-gray-400"
             type="text"
             name="email"
             id="email"
@@ -62,7 +62,7 @@ const EmailForm: React.FC<Props> = ({ extreme }) => {
           />
           <label className="">YOUR MESSAGE</label>
           <textarea
-            className="rounded-md p-2 mb-3 text-black bg-gray-200"
+            className="rounded-md p-2 mb-3 text-black bg-gray-400"
             name="jobDescription"
             id="jobDescription"
             cols={30}

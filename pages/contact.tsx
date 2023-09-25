@@ -31,11 +31,26 @@ export default function contact() {
         </p>
         <Link href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1" className="w-full">
           <button
-            className="w-full text-lg font-bold px-4 py-2 text-black bg-gray-200 rounded-md hover:bg-gray-300"
+            className="md:w-[300px] w-full text-lg font-bold px-4 py-2 text-black bg-gray-200 rounded-md hover:bg-gray-300"
             type="submit"
             aria-label="dm me"
           >
             DM ME
+          </button>
+        </Link>
+      </div>
+      <div className="my-20">
+        <h1 className="text-3xl font-bold">I'M ON FIVERR</h1>
+        <p className="text-lg text-slate-500 mb-2">
+          Fiverr is another marketplace for freelance work. I have many different gig's posted for mobile and web development. I also give lessons!
+        </p>
+        <Link href="https://www.fiverr.com/users/olivermoscow" className="w-full">
+          <button
+            className="md:w-[300px] w-full text-lg font-bold px-4 py-2 text-black bg-gray-200 rounded-md hover:bg-gray-300"
+            type="submit"
+            aria-label="dm me"
+          >
+            BOOK A GIG!
           </button>
         </Link>
       </div>
