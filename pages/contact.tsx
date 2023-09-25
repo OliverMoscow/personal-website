@@ -54,6 +54,36 @@ export default function contact() {
           </button>
         </Link>
       </div>
+      <div className="my-20">
+        <h1 className="text-3xl font-bold">AND LINKEDIN</h1>
+        <p className="text-lg text-slate-500 mb-2">
+          Linkedin is a social media platform for work related stuff. 
+        </p>
+        <Link href="https://www.linkedin.com/in/oliver-moscow-8758ab234/" className="w-full">
+          <button
+            className="md:w-[300px] w-full text-lg font-bold px-4 py-2 text-black bg-gray-200 rounded-md hover:bg-gray-300"
+            type="submit"
+            aria-label="dm me"
+          >
+            SAY HI
+          </button>
+        </Link>
+      </div>
+      <div className="my-20">
+        <h1 className="text-3xl font-bold">OH AND ALSO GITHUB</h1>
+        <p className="text-lg text-slate-500 mb-2">
+          Github allows developers to share and contribute code and interact with other developers. I have lots of activity there. It is a hub for open source projects. The code for this website is on there!
+        </p>
+        <Link href="https://github.com/OliverMoscow" className="w-full">
+          <button
+            className="md:w-[300px] w-full text-lg font-bold px-4 py-2 text-black bg-gray-200 rounded-md hover:bg-gray-300"
+            type="submit"
+            aria-label="dm me"
+          >
+            SEE MY WORK
+          </button>
+        </Link>
+      </div>
     </div>
   );
 }
