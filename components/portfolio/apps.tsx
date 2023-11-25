@@ -1,9 +1,31 @@
 import ResumeCard from "./portfolio-item-app";
+import ResumeCard2 from "./portfolio-item-website";
 
 export default function websites() {
   return (
     <div className="">
       <div className="flex flex-col gap-4 mt-10">
+      <ResumeCard2
+          href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1728547444342063104"
+          headerText={"ELITE Budgeting App"}
+          contentText={
+            "This sleek and minimalist budget app is creates a simple and satisfying budgeting experience. This app includes auto renewing subscriptions and ads."
+          }
+          imageSrc={"EliteMockup.png"}
+          company={"ELITE"}
+          date={"2023"}
+        />
+      <ResumeCard2
+          href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1728554119506939904"
+          headerText={"Collage Social App"}
+          contentText={
+            "This MVP IOS app allows Rubi quickly show their collage social app with real users. It incorporates a Firebase backend and a SwiftUI frontend."
+          }
+          imageSrc={"RubiMockup.png"}
+          company={"Rubi"}
+          date={"2023"}
+        />
+        <p>Some Older Apps</p>
       <ResumeCard
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?s=996364627857502209&p=1703109694220582912"
           headerText={"SEE MEDS"}

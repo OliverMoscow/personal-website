@@ -7,12 +7,22 @@ export default function websites() {
     <div className="">
       <div className="flex flex-col gap-10 mt-10">
         <ResumeCard
+          href="https://www.reesecustomservice.com/"
+          headerText={"Handyman Website"}
+          contentText={
+            "A handy website for a handyman. Built with Next.js and Tailwind.css, this site uses mobile first design to elegantly present the clients portfolio and drive user engagement."
+          }
+          imageSrc={"ReeseMockup.png"}
+          company={"Reese Custom Services"}
+          date={"2023"}
+        />
+        <ResumeCard
           href="https://easytolove.arminvanbuuren.com/"
           headerText={"SPOTIFY PLAYLIST GENERATOR"}
           contentText={
             "A fun date night playlist generator to promote A new album release from armada music. This app was built in three weeks with the Spotify API and Next.js"
           }
-          imageSrc={"EasyToLove.png"}
+          imageSrc={"ArmadaMockup.png"}
           company={"ARMADA MUSIC"}
           date={"2023"}
         />
@@ -123,7 +133,8 @@ export default function websites() {
             </h1>
             <p className="text-xl py-5">
               My design philosophy is that good design should lead to functional
-              websites that are quick and accessible. My results show that this is the right approach.
+              websites that are quick and accessible. My results show that this
+              is the right approach.
             </p>
             <Image
               src={"/images/performance.png"}
