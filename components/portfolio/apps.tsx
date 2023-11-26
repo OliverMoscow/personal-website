@@ -19,7 +19,7 @@ export default function websites() {
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1728554119506939904"
           headerText={"Collage Social App"}
           contentText={
-            "This MVP IOS app allows Rubi quickly share their groundbreaking collage social app with real users. It incorporates a Firebase backend and a SwiftUI frontend."
+            "This MVP IOS app allows Rubi to quickly share their collage social app with real users. It incorporates a Firebase backend and a SwiftUI frontend."
           }
           imageSrc={"RubiMockup.png"}
           company={"Rubi"}

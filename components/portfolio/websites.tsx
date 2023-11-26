@@ -20,7 +20,7 @@ export default function websites() {
           href="https://easytolove.arminvanbuuren.com/"
           headerText={"SPOTIFY PLAYLIST GENERATOR"}
           contentText={
-            "A fun date night playlist generator to promote A new album release from armada music. This app was built in three weeks with the Spotify API and Next.js"
+            "A fun date night playlist generator to promote a new album release from armada music. This app was built in just two weeks with the Spotify API and Next.js"
           }
           imageSrc={"ArmadaMockup.png"}
           company={"ARMADA MUSIC"}
