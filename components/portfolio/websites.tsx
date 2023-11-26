@@ -10,7 +10,7 @@ export default function websites() {
           href="https://www.reesecustomservice.com/"
           headerText={"Handyman Website"}
           contentText={
-            "A handy website for a handyman. Built with Next.js and Tailwind.css, this site uses mobile first design to elegantly present the clients portfolio and drive user engagement."
+            "A handy website for a handyman. Built with Next.js and Tailwind.css, this site uses mobile first design to elegantly present my client's portfolio and drive user engagement."
           }
           imageSrc={"ReeseMockup.png"}
           company={"Reese Custom Services"}

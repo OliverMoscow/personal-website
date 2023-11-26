@@ -9,7 +9,7 @@ export default function websites() {
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1728547444342063104"
           headerText={"ELITE Budgeting App"}
           contentText={
-            "This sleek and minimalist budget app is creates a simple and satisfying budgeting experience. This app includes auto renewing subscriptions and ads."
+            "This sleek and minimalist budget app is redefining personal finance. Built with SwiftUI, This app includes auto renewing subscriptions and ads."
           }
           imageSrc={"EliteMockup.png"}
           company={"ELITE"}
@@ -19,7 +19,7 @@ export default function websites() {
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1728554119506939904"
           headerText={"Collage Social App"}
           contentText={
-            "This MVP IOS app allows Rubi quickly show their collage social app with real users. It incorporates a Firebase backend and a SwiftUI frontend."
+            "This MVP IOS app allows Rubi quickly share their groundbreaking collage social app with real users. It incorporates a Firebase backend and a SwiftUI frontend."
           }
           imageSrc={"RubiMockup.png"}
           company={"Rubi"}
