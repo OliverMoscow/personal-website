@@ -9,7 +9,7 @@ export default function websites() {
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1728547444342063104"
           headerText={"ELITE Budgeting App"}
           contentText={
-            "This sleek and minimalist budget app is redefining personal finance. Built with SwiftUI, This app includes auto renewing subscriptions and ads."
+            "This sleek and minimalist budget app is redefining personal finance. Built with SwiftUI, This app includes auto-renewing subscriptions and ads."
           }
           imageSrc={"EliteMockup.png"}
           company={"ELITE"}
@@ -17,9 +17,9 @@ export default function websites() {
         />
       <ResumeCard2
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?p=1728554119506939904"
-          headerText={"Collage Social App"}
+          headerText={"College Social App"}
           contentText={
-            "This MVP IOS app allows Rubi to quickly share their collage social app with real users. It incorporates a Firebase backend and a SwiftUI frontend."
+            "This MVP IOS app allows Rubi to share their collage social app with real users quickly. It incorporates a Firebase backend and a SwiftUI frontend."
           }
           imageSrc={"RubiMockup.png"}
           company={"Rubi"}
@@ -30,7 +30,7 @@ export default function websites() {
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?s=996364627857502209&p=1703109694220582912"
           headerText={"SEE MEDS"}
           contentText={
-            "A medicine reminder app built in Swift with user notifications, user accounts, and firebase backend. This app is available on the Apple App Store."
+            "A medicine reminder app built in Swift with user notifications, user accounts, and Firebase backend. This app is available on the Apple App Store."
           }
           imageSrc={"seeMeds.png"}
           company={"FREELANCE CLIENT"}
@@ -50,7 +50,7 @@ export default function websites() {
           href="https://www.upwork.com/freelancers/~01f1aad6eae6cda2b1?s=996364627857502209&p=1532039553843273728"
           headerText={"LISTNR"}
           contentText={
-            "A highschool entrepreneurial idea. This app allows teenagers to share mini podcasts. It uses AVFoundation and Firebase."
+            "A high school entrepreneurial idea. This app allows teenagers to share mini podcasts. It uses AVFoundation and Firebase."
           }
           imageSrc={"listnr.png"}
           company={"PERSONAL PROJECT"}
